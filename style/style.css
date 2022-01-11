@@ -1,0 +1,173 @@
+*,
+*::before,
+*::after {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+/* definition image de fond et police par défaut */
+html {
+font-size: 100%;
+}
+
+body {
+color:#000;
+font-family: Verdana, sans-serif;
+font-size:100%;
+background:#fff;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Espace r�server au menu */
+
+.copyright {
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+}
+#menu_top {
+    background-color:#336699;
+    width:800px;
+    height:40px;
+    margin:0;
+    padding:0
+    }
+    
+    #gauche{
+    float:left
+    }
+    
+    #droit {
+    float:right
+    }
+    
+    #menu_top ul {
+    list-style:none;
+    margin:0;
+    padding:10px 5px
+    }
+    
+    #menu_top li {
+    display:inline;
+    padding:0 8px
+    }
+    
+    #menu_top a {
+    color:#fff;
+    text-decoration:none;
+    border:1px solid #336699;
+    padding:6px 10px
+    }
+    
+    #menu_top a:hover {
+    color:#fff;
+    background-color:#903;
+    border:1px solid #fff
+    }
+    
+    #actif a {
+    color:#fff;
+    background-color:#903;
+    border:1px solid #07b
+    }
+
+#pied_de_page {
+    background-color:#888888;
+    width:800px;
+    height:50px;
+    margin-top: 53vh;
+}
+
+#pied_de_page2 {
+    background-color:#888888;
+    width:800px;
+    height:50px;
+}
+
+#pied_de_page3 {
+    background-color:#888888;
+    width:800px;
+    height:50px;
+    margin-top: 35vh;
+}
+
+#pied_de_page4 {
+    background-color:#888888;
+    width:800px;
+    height:50px;
+    margin-top: 36.1vh;
+}
+
+#pied_de_page5 {
+    background-color:#888888;
+    width:800px;
+    height:50px;
+    margin-top: 37vh;
+}
+
+.welcome_text {
+    margin-top: 25px;
+}
+
+.descriptif_text {
+    margin-top: 30px;
+}
+
+.principal {
+    width: 800px;
+}
+
+.line {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contour_photo {
+    width: 160px;
+    height: 220px;
+    border: 2px solid #336699;
+    margin: 40px 15px 0 15px;
+}
+
+.top {
+    color: white;
+    background: #336699;
+    text-align: center;
+}
+
+.photo_planete {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 15px;
+}
+
+.descriptif {
+    text-align: center;
+}
+
+.rubrique {
+    margin-top: 20px;
+    margin-left: 5px;
+}
+
+.position {
+    margin-top: 10px;
+    margin-left: 40px;
+}
+
+.position2 {
+    margin-top: 30px;
+    margin-left: 40px;
+}
+
+.text_formulaire {
+    margin-top: 10px;
+}
